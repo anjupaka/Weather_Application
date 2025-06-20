@@ -1,0 +1,44 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(#3a8bfd );
+  color: white;
+  min-height: 100vh;
+}
+
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.left-panel {
+  flex: 0.7;
+  margin-left: 20px;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.glassy-card {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  color: white !important;
+}
+
+
